@@ -25,9 +25,11 @@ export default async function RootLayout({
  
  return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(font.className)}>
+      <body className={cn(font.className) } >
   
-            {children}
+           <div className='bg-[#0b0b0b]'>
+           {children}
+           </div>
         
     
       </body>
